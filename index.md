@@ -5,7 +5,7 @@
 ### Starting Projects
 
 [Day of Birth on Pyhton](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/Week.jpg?raw=true"/>
 
 ---
 [URL and QR Generator](/pdf/sample_presentation.pdf)
