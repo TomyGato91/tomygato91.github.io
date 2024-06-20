@@ -9,7 +9,7 @@
 
 ---
 [URL and QR Generator](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/URL.png?raw=true"/>
 
 ---
 
