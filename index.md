@@ -4,11 +4,11 @@
 
 ### Starting Projects
 
-[Day of Birth on Pyhton](/sample_page)
+[Day of Birth on Pyhton]()
 <img src="images/Week.jpg?raw=true"/>
 
 ---
-[URL and QR Generator](/pdf/sample_presentation.pdf)
+[URL and QR Generator]()
 <img src="images/URL.png?raw=true"/>
 
 ---
