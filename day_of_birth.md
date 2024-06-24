@@ -34,10 +34,4 @@ your_birthday()                                                                 
 In order to know if the program runs properly I tried with my own birthday first : 01/12/1991
 And then with the next day and the day before. As seen on the console my program seems to work!
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<img src="images/Captura de pantalla 2024-06-24 a las 19.30.34.png?raw=true"/>
