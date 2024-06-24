@@ -4,7 +4,7 @@
 
 ### Starting Projects
 
-[Day of Birth on Pyhton](/sample_page.md)
+[Day of Birth on Pyhton](/day_of_birth.md)
 <img src="images/Week.jpg?raw=true"/>
 
 ---
