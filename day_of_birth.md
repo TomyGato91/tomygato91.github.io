@@ -1,4 +1,4 @@
-## This Python program gives the day of the week you were born by giving your birth date
+## Pyhton Program to know the day of the week you were born
 
 **Project description:** This is a starting program that I wrote while practicing my knowledge in Python and the use of different libraries. In this case the project is based on the libraries datetime & calendar. Both are useful in order to manipulate time modules and work directly in days, months and years in order to get different information. 
 
