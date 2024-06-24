@@ -29,7 +29,10 @@ def your_birthday():                                                            
 your_birthday()                                                                                 #call the function
 ```
 
-### 3. Support the selection of appropriate statistical tools and techniques
+### 3. Results: 
+
+In order to know if the program runs properly I tried with my own birthday first : 01/12/1991
+And then with the next day and the day before. As seen on the console my program seems to work!
 
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
