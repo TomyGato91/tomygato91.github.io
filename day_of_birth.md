@@ -1,15 +1,14 @@
 ## This Python program gives the day of the week you were born by giving your birth date
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project description:** This is a starting program that I wrote while practicing my knowledge in Python and the use of different libraries. In this case the project is based on the libraries datetime & calendar. Both are useful in order to manipulate time modules and move in days, months and years in order to get different information. 
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### 1. Import both libraries 
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+
 
 ```javascript
-if (isAwesome){
-  return true
-}
+import datetime as dt
+import calendar as cal
 ```
 
 ### 2. Assess assumptions on which statistical inference will be based
