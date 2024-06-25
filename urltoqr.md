@@ -28,7 +28,7 @@ We start by asking the user to insert his long URL
 weblink = input("Please insert your URL to create a QR code: ")
 ```
 Now we use use the Base Factory class of the library pyshorteners -> Shortener() <br>
-In order to short our link we choose the API: Da.gd from the library (There are many more) <br>
+In order to short our link we choose the API: Da.gd from the library (There are many more). <br>
 And with .short we finally get our shorted version of the URL we inserted before. 
 
 ```javascript
@@ -41,8 +41,8 @@ print("Your shortened URL is : ",url_shorted)
 ### 3. QR code generator
 
 From the inserted URL we will now create a QR code for it! We start defining the size of our QR code <br>
-With the class QRCode we can suit the size. Version 1 generates a 21x21 Matrix in which we decided a box_size of 10 and a border of 4 <br>
-Then with .add_data we add the URL that we asked at the begining and with .make and a True value for fit, it generates the QR code it automatically <br>
+With the class QRCode we can suit the size. Version 1 generates a 21x21 Matrix in which we decided a box_size of 10 and a border of 4. <br>
+Then with .add_data we add the URL that we asked at the begining and with .make and a True value for fit, it generates the QR code it automatically. <br>
 
 ```javascript
 qr = qrcode.QRCode(version = 1, box_size = 10, border = 5)
@@ -61,7 +61,10 @@ img.save('GeneratedQR.png')
 
 ### 3. Results: 
 
-In order to know if the program runs properly I tried with my own birthday first : 01/12/1991
-And then with the next day and the day before. As seen on the console my program seems to work!
+In order to know if the program runs properly I tried with my own github portfolio link.
+First of all we start the program and we see it asks the user to insert a URL. 
 
 <img src="images/Captura de pantalla 2024-06-24 a las 19.30.34.png?raw=true"/>
+
+Then the program directly gives us back our shortened URL in text form and we find the generated QR code in the folder were our <br>
+program is running. Both the shortened link and the QR code work properly!
