@@ -20,7 +20,7 @@ import qrcode
 import pyshorteners
 ```
 
-### 2. Main Program
+### 2. URL shortener
 
 We start by asking the user to insert his long URL
 
@@ -36,6 +36,27 @@ shorturl = pyshorteners.Shortener()
 url_shorted = shorturl.dagd.short(weblink)
 
 print("Your shortened URL is : ",url_shorted)
+```
+
+### 3. QR code generator
+
+From the inserted URL we will now create a QR code for it! We start defining the size of our QR code <br>
+With the class QRCode we can suit the size. Version 1 generates a 21x21 Matrix in which we decided a box_size of 10 and a border of 4 <br>
+Then with .add_data we add the URL that we asked at the begining and with .make and a True value for fit, it generates the QR code it automatically <br>
+
+```javascript
+qr = qrcode.QRCode(version = 1, box_size = 10, border = 5)
+
+qr.add_data(weblink)
+qr.make(fit = True)
+```
+
+Finally we decide the QR code background and painting color. In this case we choose a generic back and white QR. <br>
+And we save our generated QR code with .save in the folder were our program is running.
+
+```javascript
+img = qr.make_image(fill='black', back_color = 'white')
+img.save('GeneratedQR.png')
 ```
 
 ### 3. Results: 
