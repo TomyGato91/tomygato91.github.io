@@ -64,10 +64,14 @@ img.save('GeneratedQR.png')
 In order to know if the program runs properly I tried with my own github portfolio link.
 First of all we start the program and we see it asks the user to insert a URL. 
 
-<img src="images/Captura de pantalla 2024-06-24 a las 19.30.34.png?raw=true"/>
+<img src="images/qrcode1.png?raw=true"/>
 
-Then the program directly gives us back our shortened URL in text form and we find the generated QR code in the folder were our <br>
-program is running. Both the shortened link and the QR code work properly!
+Then the program directly gives us back our shortened URL in text form.
 
-<img src="images/Captura de pantalla 2024-06-24 a las 19.30.34.png?raw=true"/>
-<img src="images/Captura de pantalla 2024-06-24 a las 19.30.34.png?raw=true"/>
+<img src="images/qrcode2.png?raw=true"/>
+
+And we find the generated QR Code in the same folder were the program was running.
+Both, the new URL and the QR Code links directly to my tomygato91.github.io Portfolio. <br>
+The program works properly!
+
+<img src="images/GeneratedQR.png?raw=true"/>
