@@ -74,4 +74,7 @@ And we find the generated QR Code in the same folder were the program was runnin
 Both, the new URL and the QR Code links directly to my tomygato91.github.io Portfolio. <br>
 The program works properly!
 
-<img src="images/GeneratedQR.png?raw=true"/>
+<p align="center">
+  <img src="images/GeneratedQR.png?raw=true"/>
+</p>
+
