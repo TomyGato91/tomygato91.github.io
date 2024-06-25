@@ -71,7 +71,7 @@ Then the program directly gives us back our shortened URL in text form.
 <img src="images/qrcode2.png?raw=true"/>
 
 And we find the generated QR Code in the same folder were the program was running.
-Both, the new URL and the QR Code links directly to my tomygato91.github.io Portfolio. <br>
+Both, the new URL: https://da.gd/qQI0 and the QR Code links directly to my tomygato91.github.io Portfolio. <br>
 The program works properly!
 
 <p align="center">
