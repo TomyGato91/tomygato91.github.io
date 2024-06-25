@@ -27,8 +27,8 @@ We start by asking the user to insert his long URL
 ```javascript
 weblink = input("Please insert your URL to create a QR code: ")
 ```
-Now we use use the Base Factory class of the library pyshorteners -> Shortener()
-In order to short our link we choose the API: Da.gd from the library (There are many more)
+Now we use use the Base Factory class of the library pyshorteners -> Shortener() <<br>>
+In order to short our link we choose the API: Da.gd from the library (There are many more) <<br>>
 And with .short we finally get our shorted version of the URL we inserted before. 
 
 ```javascript
