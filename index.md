@@ -8,7 +8,7 @@
 <img src="images/Week.jpg?raw=true"/>
 
 ---
-[URL and QR Generator]()
+[URL and QR Generator](/urltoqr.md)
 <img src="images/URL.png?raw=true"/>
 
 ---
