@@ -68,3 +68,6 @@ First of all we start the program and we see it asks the user to insert a URL.
 
 Then the program directly gives us back our shortened URL in text form and we find the generated QR code in the folder were our <br>
 program is running. Both the shortened link and the QR code work properly!
+
+<img src="images/Captura de pantalla 2024-06-24 a las 19.30.34.png?raw=true"/>
+<img src="images/Captura de pantalla 2024-06-24 a las 19.30.34.png?raw=true"/>
