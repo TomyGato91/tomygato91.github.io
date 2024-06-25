@@ -8,34 +8,34 @@ First of all we install both libraries directly through the VisualStudio TERMINA
 
 ```javascript
 pip install qrcode
-pip install psyshorteners
+pip install pyshorteners
 pip3 install qrcode
-pip3 install psyshorteners
+pip3 install pyshorteners
 ```
 
 Then we import both libraries
 
 ```javascript
 import qrcode
-import psyshorteners
+import pyshorteners
 ```
 
 ### 2. Main Program
 
-```javascript
-def your_birthday():                                                                            #we define the function your_birthday 
-    try:
-        Birthday = input("Enter your Date of Birth in numbers (Day/Month/Year) : ")             #we ask the user to enter his birthday in form of a string     
-        Datebirth = dt.datetime.strptime(Birthday, '%d/%m/%Y')                                  #we identify the date from the string insterted before
-        Weekday = Datebirth.weekday()                                                           #from the date we now get an int to identify the day of the week: Mon->0 ,Sun->6
-    except:
-        print("Your Input is wrong!")
-        return
-    finally:
-        Bornday = cal.day_name[Weekday]                                                         #we get the day of the week as a string from the int of Weekday
-        print("You were born the " + Birthday + " and that was on a {}." .format(Bornday))      #print the solution by calling the string that gives us the day of the week (Bornday)
+We start by asking the user to insert his long URL
 
-your_birthday()                                                                                 #call the function
+```javascript
+weblink = input("Please insert your URL to create a QR code: ")
+```
+Now we use use the Base Factory class of the library pyshorteners -> Shortener()
+In order to short our link we choose the API: Da.gd from the library (There are many more)
+And with .short we finally get our shorted version of the URL we inserted before. 
+
+```javascript
+shorturl = pyshorteners.Shortener() 
+url_shorted = shorturl.dagd.short(weblink)
+
+print("Your shortened URL is : ",url_shorted)
 ```
 
 ### 3. Results: 
